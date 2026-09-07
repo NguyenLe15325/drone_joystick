@@ -85,7 +85,7 @@ to touch the simulator settings.
 - `DEADZONE` — raw ADC counts of dead zone around center (default 60,
   \~1.5% of range). Increase if your sticks don't self-center to exact 0.
 - `REPORT_INTERVAL_MS` — USB report rate (default 4 ms ≈ 250 Hz).
-- If your particular joystick modules don't center at the ADC midpoint
-  (2048), you can add a per-axis calibration offset; ping me if you'd
-  like that added (e.g. auto-calibrate on boot by sampling center
-  position for a second before use).
+- Auto-calibration: at boot, each axis's center is measured by
+   averaging `CALIBRATION_SAMPLES` samples while the sticks are untouched, instead
+   of assuming a fixed midpoint. Keep the sticks released while the
+   board boots
