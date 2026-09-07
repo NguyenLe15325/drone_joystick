@@ -1,0 +1,8 @@
+.vscode/
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+
+# dependencies.lock is intentionally NOT ignored — commit it so
+# everyone who builds this project gets identical dependency versions.
