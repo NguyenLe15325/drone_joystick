@@ -6,7 +6,8 @@ Works with most PC drone simulators (Liftoff, FPV FreeRider, Velocidrone,
 DRL Sim, etc.), since they all read from Windows/Linux game controller
 input.
 
-<video src="assets/video.mp4" width="100%" controls></video>
+![Alt Text](assets/vid.gif)
+![Alt Text](assets/vid2.gif)
 
 ## Requirements
 
